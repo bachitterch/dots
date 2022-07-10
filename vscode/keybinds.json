@@ -1,0 +1,11 @@
+
+[
+	{
+		"key": "ctrl+k",
+		"command": "workbench.action.showCommands"
+	},
+	{
+		"key": "ctrl+shift+p",
+		"command": "-workbench.action.showCommands"
+	}
+]

@@ -1,0 +1,69 @@
+[user]
+	name = 
+	email = 
+	username = 
+	signingkey = 
+[github]
+  user =
+	token = 
+[init]
+	defaultBranch = main
+[credential]
+	helper = cache
+[core]
+	editor = nvim --wait
+[commit]
+	gpgsign = true
+[gpg]
+	program = gpg
+[alias]
+	am = commit -am
+	a = add
+	all = add .
+	c = commit -m
+	i = init
+	ic = git commit -m "Initial commit"
+	p = push
+	pm = push origin main
+	s = status
+[help]
+  autocorrect = 1
+[color]
+  ui = auto
+[color "branch"]
+  current = cyan bold reverse
+  local = white
+  plain =
+  remote = cyan
+[color "diff"]
+  commit =
+  func = cyan
+  plain =
+  whitespace = magenta reverse
+  meta = white
+  frag = cyan bold reverse
+  old = red
+  new = green
+[color "grep"]
+  context =
+  filename =
+  function =
+  linenumber = white
+  match =
+  selected =
+  separator =
+[color "interactive"]
+  error =
+  header =
+  help =
+  prompt =
+[color "status"]
+  added = green
+  changed = white
+  header =
+  localBranch =
+  nobranch =
+  remoteBranch = cyan bold
+  unmerged = magenta bold reverse
+  untracked = red
+  updated = green bold

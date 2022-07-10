@@ -1,0 +1,30 @@
+import:
+  - ~/.config/alacritty/dracula.yml
+env:
+  Term: xterm-256color
+window:
+  title: Alacritty
+  dynamic_title: false
+  padding:
+    x: 10
+    y: 10
+  opacity: 0.95
+font:
+  normal:
+    family: "JetBrains Mono Nerd Font"
+    style: Regular
+  bold:
+    family: "JetBrains Mono Nerd Font"
+    style: Bold
+  italic:
+    family: "JetBrains Mono Nerd Font"
+    style: Italic
+  bold_italic:
+    family: "JetBrains Mono Nerd Font"
+    style: Bold Italic
+  size: 7.0
+
+shell:
+  program: /bin/zsh
+  args:
+    - --login
